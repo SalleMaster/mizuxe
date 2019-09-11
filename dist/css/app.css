@@ -10604,6 +10604,19 @@ body {
   width: 100%;
 }
 
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff;
+}
+
+#authors .card:hover a {
+  color: #fff;
+}
+
+#authors .card:hover a:hover {
+  opacity: 0.5;
+}
+
 @media (max-width: 768px) {
   .mb-resp {
     margin-bottom: 1rem;

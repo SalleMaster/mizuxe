@@ -59,6 +59,19 @@ body {
     #card-icons {
       width: 100%;
     }
+
+    &:hover {
+      background: $primary;
+      color: #fff;
+
+      a {
+        color: #fff;
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+    }
   }
 }
 
